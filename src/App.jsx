@@ -1,12 +1,16 @@
-import {Question1, Question2} from './components.jsx';
+import {ColorMix, LargestProduct, DayOfTheWeek, PayRaise, IsLeapYear} from './components.jsx';
 
 function App() {
   return (
     <>
-        <Question1 />   
-        <Question2 /> 
+        <ColorMix />
+        <LargestProduct />    
+        <DayOfTheWeek />
+        <PayRaise />
+        <IsLeapYear />
     </>
   )
 }
 
 export default App
+
